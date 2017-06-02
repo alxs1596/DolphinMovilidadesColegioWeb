@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common'
 
 import { NgModule } from '@angular/core'
 
-import { MdGridListModule } from '@angular/material'
+import { MdGridListModule, MdListModule, MdCardModule} from '@angular/material'
 
 import { PrincipalComponent } from './principal.component'
 
@@ -28,6 +28,8 @@ import { AgmCoreModule } from 'angular2-google-maps/core'
   imports: [
     CommonModule,   
     MdGridListModule,
+    MdListModule,
+    MdCardModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAciPHc39TgwQbAizUF0j_c3p2YlI0TtN8'
     })

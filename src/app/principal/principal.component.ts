@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./principal.component.css']
 })
 export class PrincipalComponent implements OnInit {
-  color = "lightblue";
+  //color = "lightblue";
   constructor() { }
 
   ngOnInit() {

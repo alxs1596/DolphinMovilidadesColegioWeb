@@ -5,8 +5,8 @@ import { RouterModule, Routes } from '@angular/router'
 import { PrincipalComponent } from 'app/principal/principal.component'
 
 const routes: Routes = [
-  {path: '', redirectTo: '/principal', pathMatch: 'full'},
-  {path: 'principal', component: PrincipalComponent}
+  //{path: '', redirectTo: '/principal', pathMatch: 'full'},
+  {path: '', component: PrincipalComponent}
 ];
 
 @NgModule({

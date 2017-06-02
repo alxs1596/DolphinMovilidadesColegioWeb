@@ -1,0 +1,9 @@
+.estilo-tile{
+    position: relative; 
+    overflow-y: auto
+}
+.lista{
+    min-width: 100%; 
+    top: 0px;  
+    position: absolute
+}

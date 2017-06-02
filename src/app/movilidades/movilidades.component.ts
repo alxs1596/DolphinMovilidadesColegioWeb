@@ -6,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movilidades.component.css']
 })
 export class MovilidadesComponent implements OnInit {
-
+  color = "lightgreen";
+  color2 = "#DDDDDD";
+  lista_movilidades = [
+    {nombre: "Jose Carlos"},
+    {nombre: "Roberto Salas"},
+  ];
   constructor() { }
 
   ngOnInit() {

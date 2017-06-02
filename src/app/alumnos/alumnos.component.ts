@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./alumnos.component.css']
 })
 export class AlumnosComponent implements OnInit {
-
+  lista_alumnos = [
+    {nombre: "Alexis Vargas"},
+    {nombre: "Gianella Milon"}
+  ];
   constructor() { }
 
   ngOnInit() {

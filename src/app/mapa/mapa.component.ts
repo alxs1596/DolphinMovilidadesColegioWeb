@@ -8,10 +8,9 @@ import { Component, OnInit } from '@angular/core';
   
 })
 export class MapaComponent implements OnInit {
-  color = "lightgreen";
- title: string = 'My first angular2-google-maps project';
-  lat: number = 51.678418;
-  lng: number = 7.809007;
+  zoom: number = 16;
+  lat: number = -16.424505;
+  lng: number = -71.556175;
   constructor() { }
 
   ngOnInit() {
