@@ -32,7 +32,9 @@ import { AppRoutingModule } from 'app/app-routing/app-routing.module';
     AppRoutingModule,
     ReactiveFormsModule,
 
-    PrincipalModule
+    PrincipalModule,
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
