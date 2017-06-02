@@ -10,13 +10,16 @@ import { PrincipalModule } from './principal/principal.module'
 
 import { AppComponent } from './app.component';
 
-import { AppRoutingModule } from 'app/app-routing/app-routing.module'
+import { AppRoutingModule } from 'app/app-routing/app-routing.module';
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+
+    
     
   ],
   imports: [
